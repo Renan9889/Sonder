@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=TT+Commons+Pro:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    box-sizing: border-box;
+    min-height: 100vh; /* Definindo a altura mínima para ocupar toda a tela */
+}
+
+#pagina-principal {
+    background-color: black;
+    min-height: 100vh; /* Definindo a altura mínima para ocupar toda a tela */
+    padding-bottom: 100px; /* Adicionando espaço na parte inferior para evitar que o conteúdo seja cortado */
+}
+
+/* Remova as posições absolutas desnecessárias ou ajuste conforme necessário */
+
+#cabecalho {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 90px;
+    justify-content: center;
+    gap: 70px;
+}
+
+.menu {
+    text-decoration: none;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+
+#sonder-logo {
+    height: 70px;
+    width: 70px;
+    position: relative;
+    right: 200px;
+}
+
+#lupa {
+    position: relative;
+    left: 250px;
+}
+
+#lupa-img {
+    height: 70px;
+    width: 70px;
+}
+
+#login {
+    position: relative;
+    left: 200px;
+}
+
+#login-img {
+    height: 33px;
+    width: 33px;
+}
+
+/*Pagina principal*/
+#text-main {
+    font-size: 60px;
+    position: absolute;
+    left: 70px;
+    top: 200px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+
+#botao-comprar {
+    text-decoration: none;
+    color: black;
+    border: 5px solid white;
+    font-size: 30px;
+    position: relative;
+    left: 70px;
+    top: 350px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+#foto-lancamento {
+    display: flex;
+    align-items: center;
+}
+
+#frente {
+    height: 330px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    left: 650px;
+    top: 210px;
+    overflow: visible;
+}
+
+#atras {
+    height: 330px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    left: 1000px;
+    top: 210px;
+}
+
+#roupa_popular h3 {
+    color: black;
+}
+
+#roupa_popular{
+    background-color: white;
+    height: 600px;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#Tamanho_{
+    color: black;
+}
+
+#imagen_mais_vendida{
+    display: flex;
+    position: absolute;
+    top: 1050px;   
+    left: 400px;
+    border: 1px solid red;
+    
+}
+
+#nome_da_camisa_popular{
+    display: flex;
+    position: absolute;
+    top: 850px;
+    right: 400px;
+}
+
+#descricao_da_camisa_popular{
+    display: flex;
+    position: absolute;
+    top: 1000px;
+    right: 150px;
+
+}
